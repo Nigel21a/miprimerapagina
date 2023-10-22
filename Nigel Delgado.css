@@ -1,0 +1,194 @@
+/*Toda la pàgina web*/
+*
+{
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+/*Header*/
+header
+{
+    background-color: aqua;
+    display: flex;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    justify-content: space-between;
+}
+
+.titulo
+{
+    margin: 20px;
+    font-size: 48px;
+}
+
+.boton
+{
+    margin: 20px;
+    display: inline-block;
+    font-size: 20px;
+    padding: 5px;
+    background-color: whitesmoke;
+    border-radius: 10%;
+}
+
+.texto-boton
+{
+    color: black;
+}
+
+/*Secciòn 1 "¿Quièn-Soy?*/
+
+#¿Quien-Soy
+{
+    background-color: whitesmoke;
+}
+
+.Quien-Soy
+{
+    color: green;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 38px;
+    align-content: center;
+    margin: 0px;
+    padding: 20px;
+    display: block;
+    text-align: center;
+}
+
+
+.Soy
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Pàrrafo1
+{
+    padding: 30px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Imagen1
+{
+    padding: 30px;
+}
+
+/*Seccuiòn 2 "Proyectos"*/
+
+#seccion2-Proyectos
+{
+    background-color: yellow;
+}
+
+.titulo1a
+{
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 38px;
+    align-content: center;
+    margin: 0px;
+    padding: 20px;
+    display: block;
+    text-align: center;
+}
+
+.Proyectos
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*Proyecto 1*/
+
+.Imagen2
+{
+    height: 450px;
+    width: 600px;
+    padding: 20px;
+    border-radius: 10%;
+}
+
+.titulo1b
+{
+    padding: 20px;
+    font-size: 38px;
+    text-align: center;
+    color: red;
+}
+
+.parrafo2
+{
+    padding: 20px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    width: 600px;
+}
+
+.Proyecto1
+{
+    border: solid 2px black;
+    margin: 20px;
+    border-radius: 5%;
+}
+
+/*Proyecto 2*/
+
+.Proyecto2
+{
+    border: solid 2px black;
+    margin: 20px;
+    border-radius: 5%;
+}
+
+.Imagen3
+{
+    height: 450px;
+    width: 500px;
+    padding: 20px;
+    border-radius: 10%;
+}
+
+.titulo1c
+{
+    padding: 20px;
+    font-size: 38px;
+    text-align: center;
+    color: red;
+}
+
+.parrafo3
+{
+    padding: 20px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    width: 500px;
+}
+
+/*Pie de Pàgina*/
+
+#Contacto
+{
+    background-color: blue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.contacto
+{
+    color: white;
+    text-align: center;
+    font-size: 38px;
+    display: block;
+    padding: 20px;
+}
+
+.texto
+{
+    color: white;
+    padding: 10px;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
