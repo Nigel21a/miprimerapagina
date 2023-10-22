@@ -74,6 +74,16 @@ header
     padding: 30px;
 }
 
+@media (max-width:768px)
+{
+    .Soy
+    {
+        flex-wrap: wrap;
+    }
+}
+
+
+
 /*Seccuiòn 2 "Proyectos"*/
 
 #seccion2-Proyectos
@@ -166,6 +176,32 @@ header
     font-size: 18px;
     width: 500px;
 }
+
+
+@media (max-width:768px)
+{
+   .Proyectos
+   {
+    flex-wrap: wrap;
+   }
+   .Imagen3
+   {
+    width: 600px;
+   }
+   .parrafo3
+   {
+    width: 600px;
+   }
+   .titulo1b
+   {
+    color: aqua;
+   }
+   .titulo1c
+   {
+    color: black;
+   }
+}
+
 
 /*Pie de Pàgina*/
 
